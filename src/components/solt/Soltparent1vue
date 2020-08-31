@@ -1,0 +1,22 @@
+<template>
+	<div>
+		this is a Soltparent
+		<Sonsolt>
+			<h1>uuuuu</h1>
+			<h3> this is Soltparent </h3>
+		</Sonsolt>
+	</div>
+</template>
+
+<script>
+	import Sonsolt from "./Sonsolt.vue"
+	export default{
+		name:"Soltparent",
+		components:{
+			Sonsolt
+		}
+	}
+</script>
+
+<style>
+</style>
