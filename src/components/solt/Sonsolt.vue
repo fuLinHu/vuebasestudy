@@ -1,20 +1,34 @@
 <template>
 	<div>
-		<Soltparent>
-			<span slot="a">aaaaaaaaaa</span>
-		</Soltparent>
+		this is a son solt
+		<br/>
+		<slot name="header">
+			
+		</slot>
+		<slot>
+			
+		</slot>
+		<slot name="footer" :userData="user">
+			
+		</slot>
+		
 		
 	</div>
 </template>
 
 <script>
-	import Soltparent from 'Soltparent.vue'
 	export default{
-		components:{
-			Soltparent
+		data(){
+			return {
+				user:{
+					name:"林虎",
+					age:10,
+					heigh:181
+				}
+			}
 		}
 	}
 </script>
-
+  
 <style>
 </style>
