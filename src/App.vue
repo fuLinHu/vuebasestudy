@@ -2,18 +2,20 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
-	<Soltparent />
+	<!-- <Soltparent /> -->
+	<ComponetA />
   </div>
 </template>
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
-import Soltparent from "./components/solt/Soltparent.vue"
+// import Soltparent from "./components/solt/Soltparent.vue"
+import ComponetA from "./components/keepalive/ComponetA.vue"
 
 export default {
   name: 'app',
   components: {
-	Soltparent
+	ComponetA
   }
 }
 </script>
